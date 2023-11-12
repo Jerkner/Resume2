@@ -10,12 +10,12 @@
 
 body {
     background-color: aliceblue;
-    width: 841px;
-    height: 1189px;
+    width: 900px;
+    height: 1200px;
     padding: 1em;
     font-family: "Open Sans", sans-serif;
     border: rgb(46, 40, 86) solid 1px;
-    margin: auto;
+    margin: 1em auto;
 }
 
 hr {
@@ -78,6 +78,7 @@ header {
     height: 140px;
     min-width: 175px;
     border: rgb(46, 40, 86) solid 1px;
+    padding: 0.25em;
 }
 
 .contact li {
