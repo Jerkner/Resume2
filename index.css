@@ -10,12 +10,12 @@
 
 body {
     background-color: aliceblue;
-    width: 900px;
-    height: min-content;
+    width: 841px;
+    height: 1200px;
     padding: 1em;
     font-family: "Open Sans", sans-serif;
     border: rgb(46, 40, 86) solid 1px;
-    margin: 1em auto;
+    margin: 10px auto;
 }
 
 hr {
