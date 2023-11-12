@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 0, 0, 0.05);
+    outline: black solid 1px; */
+}
+
+body {
+    background-color: aliceblue;
+    width: 841px;
+    height: 1189px;
+    padding: 1em;
+    font-family: "Open Sans", sans-serif;
+    border: rgb(46, 40, 86) solid 1px;
+    margin: auto;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+    margin-bottom: 0.25em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.margin-top {
+    margin-top: 0.25em;
+}
+
+.cont {
+    display: flex;
+}
+
+.year {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+.contact a:hover {
+    font-weight: bolder;
+}
+
+.icon {
+    max-width: 1em;
+    min-width: 1em;
+    height: 1em;
+    fill: rgb(46, 40, 86);
+}
+
+header {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    height: 140px;
+    min-width: 175px;
+    border: rgb(46, 40, 86) solid 1px;
+}
+
+.contact li {
+    white-space: nowrap;
+    padding: 0.25em;
+}
+
+.contact li a {
+    display: flex;
+    gap: 5px;
+    align-items: bottom;
+}
+
+.contact li img {
+    margin-right: 5px;
+}
+
+.photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(46, 40, 86);
+    width: 50%;
+    height: 140px;
+    text-align: center;
+}
+
+.presentation ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.presentation li {
+    flex: 0 0 50%;
+    text-align: center;
+    margin: 5px 0;
+    white-space: nowrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.description {
+    line-height: 1.25;
+    width: 80%;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills ul {
+    columns: 3;
+    column-gap: 10px;
+}
+
+.skills li {
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1 1 3fr;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.extra-info {
+    display: flex;
+    justify-content: space-around;
+}
